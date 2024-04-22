@@ -21,6 +21,7 @@ Most of the workshop instructors will use Windows machines with Anaconda to inst
 #### For participants who are NOT already using python, conda, and Jupyter
 
 Or for participants who want a nearly identical set up to the instructors, ***before the workshop please follow all the instructions in this document.*** Estimated time to complete these instructions is 30 minutes. Administrative privileges may or may not be needed to install the required software. Please ask for assistance from local IT staff if any problems are encountered with these instructions on your machine. MSU will provide limited support for problems only on day 1 of the “Getting Started” workshop (6 May 2024), but of course we will not be able to remedy any issues arising from the need for administrative privileges or lack of hard drive space on individual machines. Please plan accordingly.
+
 <br>
 <br>
 
@@ -33,6 +34,7 @@ Install Anaconda using the instructions provided on the Anaconda documentation p
 Windows OS machines: [https://docs.anaconda.com/free/anaconda/install/windows/](https://docs.anaconda.com/free/anaconda/install/windows/) 
 
 For other OS machines: [mac](https://docs.anaconda.com/free/anaconda/install/mac-os/), [linux](https://docs.anaconda.com/free/anaconda/install/linux/) 
+
 <br>
 <br>
 
