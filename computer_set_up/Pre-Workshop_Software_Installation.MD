@@ -57,7 +57,7 @@ Alternate instructions if the above does not work:
 4.	On this same pop up window make sure the check box next to Python is checked (should be checked by default). Whatever version of python is pre-populated in the drop down should be fine.
 5.	On this same pop up window click the “Create” button and wait for conda to finish creating your new environment. You’ll see a green play button next to the pyworkshop environment when Anaconda has finished creating and activating it.
 6.	Now we’ll select a series of packages to install to the pyworkshop environment. Make sure the dropdown menu displays “All”. In the “Search Packages” bar type: numpy, then in the list of packages that appears find the one called numpy and click the check box in the “Name” column next to the package name.
-7.	Repeat step 6 fourteen more times with the following package names: dask, gdal, geopandas, glob2, jupyter, matplotlib, nb_conda_kernels, netcdf4, numpy, pandas, rasterio, rioxarray, seaborn, xarray
+7.	Repeat step 6 twenty more times with the following package names: dask, gdal, geopandas, glob2, jupyter, librosa, matplotlib, nb_conda_kernels, netcdf4, nltk, numpy, opencv, openpyxl, pandas, pillow, rasterio, re2, rioxarray, seaborn, scikit-learn, xarray
 8.	Click the “Apply” button at the bottom right
 9.	When the “Install Packages” pop up window appears, click the “Apply” button on the pop up window and wait for the packages to finish installing. You’ll see the green play button next to the pyworkshop environment name when the installation is complete. 
 <br>
