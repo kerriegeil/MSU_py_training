@@ -1,6 +1,6 @@
 # PLEASE ATTEMPT THIS SOFTWARE INSTALLATION PRIOR TO THE WORKSHOP DATES
 (administrative privileges on your machine may be necessary)
----
+
 
 ## Preparation for “Python: Getting Started” and “Python: Learn by Doing” workshops
 
@@ -25,7 +25,6 @@ Most of the workshop instructors will use Windows machines with Anaconda to inst
 Or for participants who want a nearly identical set up to the instructors, **before the workshop please follow all the instructions in this document.** Estimated time to complete these instructions is 30 minutes. Administrative privileges may or may not be needed to install the required software. Please ask for assistance from local IT staff if any problems are encountered with these instructions on your machine. MSU will provide limited support for problems only on day 1 of the “Getting Started” workshop (6 May 2024), but of course we will not be able to remedy any issues arising from the need for administrative privileges or lack of hard drive space on individual machines. Please plan accordingly.
 <br>
 <br>
----
 
 ## Task 1: Installing Anaconda
 
@@ -36,7 +35,8 @@ Install Anaconda using the instructions provided on the Anaconda documentation p
 Windows OS machines: [https://docs.anaconda.com/free/anaconda/install/windows/](https://docs.anaconda.com/free/anaconda/install/windows/) 
 
 For other OS machines: [mac](https://docs.anaconda.com/free/anaconda/install/mac-os/), [linux](https://docs.anaconda.com/free/anaconda/install/linux/) 
----
+<br>
+<br>
 
 ## Task 2: Creating the pyworkshop conda environment
 
@@ -60,7 +60,8 @@ Alternate instructions if the above does not work:
 7.	Repeat step 6 fourteen more times with the following package names: dask, gdal, geopandas, glob2, jupyter, matplotlib, nb_conda_kernels, netcdf4, numpy, pandas, rasterio, rioxarray, seaborn, xarray
 8.	Click the “Apply” button at the bottom right
 9.	When the “Install Packages” pop up window appears, click the “Apply” button on the pop up window and wait for the packages to finish installing. You’ll see the green play button next to the pyworkshop environment name when the installation is complete. 
----
+<br>
+<br>
 
 ## Task 3: Launching Jupyter Lab
 
@@ -74,7 +75,8 @@ Alternate instructions if the above does not work:
 1.	In Anaconda Navigator, select the “Home” tab from the navigation pane on the left
 2.	Make sure the dropdown menus display “All applications” and “pyworkshop”
 3.	Scroll until you see JupyterLab and click the button that says “Launch”. If the button says “Install” instead of “Launch” click “Install” and wait for it to install then click “Launch”
----
+<br>
+<br>
 
 ## Task 4: Test your Jupyter/conda set up
 
