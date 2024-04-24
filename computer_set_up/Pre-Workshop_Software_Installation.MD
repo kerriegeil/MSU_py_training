@@ -3,7 +3,7 @@
 ## Preparation for “Python: Getting Started” and “Python: Learn by Doing” workshops
 
 #### System Requirements
--	Hard drive: a few gigabites of free space at minimum 
+-	Hard drive: 5-10 gigabites of free space at minimum 
 -	RAM: 8GB or more is recommended
 -	Internet access: an internet connection is needed to build or modify conda environments
 
