@@ -46,7 +46,7 @@ Here, we will create a conda environment called “pyworkshop” and install pyt
 
 1.	Follow this link [env.yml](https://github.com/kerriegeil/MSU_py_training/blob/main/conda_env/env.yml) and download the yml file by clicking on the download symbol near the top right of the file (next to Raw and copy)
 2.	Save the file to C:/Users/yourusername
-3.	From your start menu, go to Anaconda3 and open the Anaconda Prompt
+3.	From your computer's start menu, find the Anaconda3 folder and inside that folder open the Anaconda Prompt. Alternatively, type Anaconda Prompt in your computer's search bar (next to your start menu) and open the app that way.
 4.	Type the following at the command line: ```conda env create -f env.yml```
 5.	Let the installation proceed, which could take anywhere from 2-20 minutes. When the installation is finished you will see a message about activate and deactivate and you’ll once again see the prompt which starts with (base).
 
