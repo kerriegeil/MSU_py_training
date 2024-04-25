@@ -22,6 +22,10 @@ Most of the workshop instructors will use Windows machines with Anaconda to inst
 
 Or for participants who want a nearly identical set up to the instructors, ***before the workshop please follow all the instructions in this document.*** Estimated time to complete these instructions is 30 minutes. Administrative privileges may or may not be needed to install the required software. Please ask for assistance from local IT staff if any problems are encountered with these instructions on your machine. MSU will provide limited support for problems only on day 1 of the “Getting Started” workshop (6 May 2024), but of course we will not be able to remedy any issues arising from the need for administrative privileges or lack of hard drive space on individual machines. Please plan accordingly.
 
+#### Note for Mac Users
+
+**Anywhere you see instructions below to use the Anaconda Prompt, you will use the Mac terminal instead.
+
 <br>
 <br>
 
@@ -45,21 +49,56 @@ Estimated time to complete: 5-20 minutes
 Here, we will create a conda environment called “pyworkshop” and install python packages to it.
 
 1.	Follow this link [env.yml](https://github.com/kerriegeil/MSU_py_training/blob/main/conda_env/env.yml) and download the yml file by clicking on the download symbol near the top right of the file (next to Raw and copy)
-2.	Save the file to C:/Users/yourusername
-3.	From your computer's start menu, find the Anaconda3 folder and inside that folder open the Anaconda Prompt. Alternatively, type Anaconda Prompt in your computer's search bar (next to your start menu) and open the app that way.
+2.	Save the file to your home directory which is usually C:/Users/yourusername
+3.	From your computer's start menu, find the Anaconda3 folder and inside that folder open the Anaconda Prompt. Alternatively, type ```Anaconda Prompt``` in your computer's search bar (next to your start menu) and open the app that way. (Mac users, open the Mac terminal since you won't have the Anaconda Prompt)
 4.	Type the following at the command line: ```conda env create -f env.yml```
 5.	Let the installation proceed, which could take anywhere from 2-20 minutes. When the installation is finished you will see a message about activate and deactivate and you’ll once again see the prompt which starts with (base).
 
 Alternate instructions if the above does not work:
-1.	From the start menu open Anaconda Navigator click “Environments” from the navigation pane on the left
-2.	Near the bottom of the screen, click the “Create” button
-3.	In the “Create new environment” pop up window type “pyworkshop” (without the quotes) in the “Name” box. 
-4.	On this same pop up window make sure the check box next to Python is checked (should be checked by default). Whatever version of python is pre-populated in the drop down should be fine.
-5.	On this same pop up window click the “Create” button and wait for conda to finish creating your new environment. You’ll see a green play button next to the pyworkshop environment when Anaconda has finished creating and activating it.
-6.	Now we’ll select a series of packages to install to the pyworkshop environment. Make sure the dropdown menu displays “All”. In the “Search Packages” bar type: numpy, then in the list of packages that appears find the one called numpy and click the check box in the “Name” column next to the package name.
-7.	Repeat step 6 twenty more times with the following package names: dask, gdal, geopandas, glob2, jupyter, librosa, matplotlib, nb_conda_kernels, netcdf4, nltk, numpy, opencv, openpyxl, pandas, pillow, rasterio, re2, rioxarray, seaborn, scikit-learn, xarray
-8.	Click the “Apply” button at the bottom right
-9.	When the “Install Packages” pop up window appears, click the “Apply” button on the pop up window and wait for the packages to finish installing. You’ll see the green play button next to the pyworkshop environment name when the installation is complete. 
+1.	From your computer's start menu open Anaconda Navigator click “Environments” on the navigation panel on the left
+2.  Near the top of the screen, click the "Channels" button.
+3.  In the channels pop-up window that appears click the "Add" button.
+4.  In this same pop-up window type ```conda-forge``` and hit enter. If the channel can't be found, make sure you are connected to the internet!
+5.  In this same pop-up window click the "Update channels" button and wait for conda to apply your updates.
+6.	Near the bottom of the screen, click the “Create” button
+7.	In the “Create new environment” pop-up window type ```pyworkshop``` in the “Name” box. 
+8.	On this same pop-up window make sure the check box next to Python is checked (should be checked by default). Whatever version of python is pre-populated in the drop down should be fine.
+9.	On this same pop-up window click the “Create” button and wait for conda to finish creating your new environment. You’ll see a green play button next to the pyworkshop environment when Anaconda has finished creating and activating it.
+10.	Now we’ll select a series of packages to install to the pyworkshop environment. Make sure the dropdown menu near the top of the screen displays “All”. In the “Search Packages” bar (upper right) type ```numpy```, then in the list of packages that appears find the one called numpy and click the check box in the “Name” column next to the package name.
+11.	Repeat step 6 twenty more times with the following package names: dask, gdal, geopandas, glob2, jupyter, librosa, matplotlib, nb_conda_kernels, netcdf4, nltk, opencv, openpyxl, pandas, pillow, rasterio, re2, rioxarray, seaborn, scikit-learn, xarray
+12.	Click the “Apply” button at the bottom right
+13.	When the “Install Packages” pop-up window appears, click the “Apply” button on the pop-up window and wait for the packages to finish installing. You’ll see the green play button next to the pyworkshop environment name when the installation is complete. 
+
+Troubleshooting if neither of the above works (this may be needed for Mac users)
+1. Instead of using the yml file to build your conda environment copy this command into your Anaconda Prompt/Mac terminal.
+```conda create -n pyworkshop -c conda-forge dask gdal geopandas glob2 jupyter librosa matplotlib nb_conda_kernels netcdf4 nltk numpy opencv openpyxl pandas pillow rasterio re2 rioxarray seaborn scikit-learn xarray```
+
+2. If the above fails try installing a single package a time. Take note of each command that errors as well as the exact error you receive and bring this info to day 1 (6 May 2024) of the workshop.
+
+```
+conda create -n pyworkshop -c conda-forge dask
+conda activate pyworkshop
+conda install -c conda-forge gdal
+conda install -c conda-forge geopandas
+conda install -c conda-forge glob2
+conda install -c conda-forge jupyter
+conda install -c conda-forge librosa
+conda install -c conda-forge matplotlib
+conda install -c conda-forge nb_conda_kernels
+conda install -c conda-forge netcdf4
+conda install -c conda-forge nltk
+conda install -c conda-forge numpy
+conda install -c conda-forge opencv
+conda install -c conda-forge openpyxl
+conda install -c conda-forge pandas
+conda install -c conda-forge pillow
+conda install -c conda-forge rasterio
+conda install -c conda-forge re2
+conda install -c conda-forge rioxarray
+conda install -c conda-forge seaborn
+conda install -c conda-forge scikit-learn
+conda install -c conda-forge xarray
+```
 <br>
 <br>
 
@@ -72,7 +111,7 @@ Estimated time to complete: 2 minutes
 3.	You should see a browser window open JupyterLab
 
 Alternate instructions if the above does not work:
-1.	In Anaconda Navigator, select the “Home” tab from the navigation pane on the left
+1.	In Anaconda Navigator, select the “Home” tab from the navigation panel on the left
 2.	Make sure the dropdown menus display “All applications” and “pyworkshop”
 3.	Scroll until you see JupyterLab and click the button that says “Launch”. If the button says “Install” instead of “Launch” click “Install” and wait for it to install then click “Launch”
 <br>
@@ -82,7 +121,7 @@ Alternate instructions if the above does not work:
 
 Estimated time to complete: 5 minutes
 
-1.	In JupyterLab, use the navigation pane on the left to navigate to a location on your machine where you can create a test jupyter notebook. Either navigate to an existing location or create a new folder on your machine with the navigation pane (the create new folder button is near the top of the screen or you can right click in the navigation pane and choose “New Folder”).
+1.	In JupyterLab, use the navigation panel on the left to navigate to a location on your machine where you can create a test jupyter notebook. Either navigate to an existing location or create a new folder on your machine with the navigation panel (the create new folder button is near the top of the screen or you can right click in the navigation panel and choose “New Folder”).
 2.	Once you have navigated in JupyterLab to where you want to create your jupyter notebook, on the Launcher tab to the right, click the square in the Notebook section that says “Python [conda env: pyworkshop]”. This will open a new untitled jupyter notebook. 
 3.	In the first notebook cell where the cursor is blinking paste the following 3 lines:
 ```
