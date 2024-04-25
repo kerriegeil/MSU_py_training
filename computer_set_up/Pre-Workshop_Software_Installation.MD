@@ -1,4 +1,9 @@
-# PLEASE ATTEMPT THIS SOFTWARE INSTALLATION PRIOR TO THE WORKSHOP DATES (administrative privileges on your machine may be necessary)
+# PLEASE ATTEMPT THIS SOFTWARE INSTALLATION PRIOR TO 6 May 2024 
+
+**Very important info:**
+- If your machine is managed or updated by IT staff, administrative privileges on your machine may be necessary to prepare your computer
+- If you have any problems with these instructions, assistance will only be provided on 6 May 2024. This means if you only signed up for the "Python: Learn by Doing" intermediate workshop, you will need to also show up on 6 May to get help resolving any computer issues. 
+- The “Python: Getting Started” and “Python: Learn by Doing” workshops will be interactive, meaning that participants will be running python code on their own machines, following along with the instructors. If you do not plan to use these instructions to set your computer up with the required software to run python code, these workshop will not be beneficial for you. If this is the case, please consider giving up your seat in the workshop (there is a long waiting list) by notifying Dixie Cartwright.
 
 ## Preparation for “Python: Getting Started” and “Python: Learn by Doing” workshops
 
