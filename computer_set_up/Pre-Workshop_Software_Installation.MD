@@ -3,7 +3,7 @@
 **Very important info:**
 - If your machine is managed or updated by IT staff, administrative privileges on your machine may be necessary to prepare your computer
 - If you have any problems with these instructions, assistance will only be provided on 6 May 2024. This means if you only signed up for the "Python: Learn by Doing" intermediate workshop, you will need to also show up on 6 May to get help resolving any computer issues. 
-- The “Python: Getting Started” and “Python: Learn by Doing” workshops will be interactive, meaning that participants will be running python code on their own machines, following along with the instructors. If you do not plan to use these instructions to set your computer up with the required software to run python code, these workshop will not be beneficial for you. If this is the case, please consider giving up your seat in the workshop (there is a long waiting list) by notifying Dixie Cartwright.
+- The “Python: Getting Started” and “Python: Learn by Doing” workshops will be interactive, meaning that participants will be running python code on their own machines, following along with the instructors. If you do not plan to use these instructions to set your computer up with the required software to run python code, these workshops will not be beneficial for you. If this is the case, please consider giving up your seat in the workshop(s) (there is a long waiting list) by notifying Dixie Cartwright.
 
 ## Preparation for “Python: Getting Started” and “Python: Learn by Doing” workshops
 
@@ -25,7 +25,7 @@ Most of the workshop instructors will use Windows machines with Anaconda to inst
 
 #### For participants who are NOT already using python, conda, and Jupyter
 
-Or for participants who want a nearly identical set up to the instructors, ***before the workshop please follow all the instructions in this document.*** Estimated time to complete these instructions is 30 minutes. Administrative privileges may or may not be needed to install the required software. Please ask for assistance from local IT staff if any problems are encountered with these instructions on your machine. MSU will provide limited support for problems only on day 1 of the “Getting Started” workshop (6 May 2024), but of course we will not be able to remedy any issues arising from the need for administrative privileges or lack of hard drive space on individual machines. Please plan accordingly.
+Or for participants who want a nearly identical set up to the instructors, ***before the workshop please follow all the instructions in this document.*** Estimated time to complete is 30 minutes, but could be much longer if you encounter problems. Administrative privileges may or may not be needed to install the required software. Please ask for assistance from local IT staff if any problems are encountered with these instructions on your machine. MSU will provide limited support for problems only on day 1 of the “Getting Started” workshop (6 May 2024), but of course we will not be able to remedy any issues arising from the need for administrative privileges or lack of hard drive space on individual machines. Please plan accordingly.
 
 #### Note for Mac Users
 
@@ -142,4 +142,4 @@ import xarray as xr
 4.	Hold down Shift and press Enter to run the cell. Alternatively, you can press the play button at the top of the notebook or select “Run Selected Cells” from the Run dropdown menu.
 5.	In the second cell that pops up type the following line and run the cell as in step 4 above: ```from osgeo import gdal```
 6.	If step 5 throws an error replace the text in the cell with the following and run the cell again: ```import gdal```
-7.	If you get errors you can’t resolve, write down the specific error and the task+step in these instructions where the error appeared. Bring that information to day 1 (6 May 2024) of the "Python: Getting Started" workshop.
+7.	If you get errors you can’t resolve, write down the specific error and the task+step in these instructions where the error appeared. Bring that information to day 1 (6 May 2024) of the "Python: Getting Started" workshop (even if you only registered for "Python: Learn by Doing", 6 May is the only date we'll address computer issues).
