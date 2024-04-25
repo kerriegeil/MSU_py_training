@@ -75,7 +75,9 @@ Here, we will create a conda environment called “pyworkshop” and install pyt
 
 **If you are working with a fresh install of Anaconda and are still having problems:** 
 1. Instead of using the yml file to build your conda environment copy this command into your Anaconda Prompt/Mac terminal.
+
 ```conda create -n pyworkshop -c conda-forge dask gdal geopandas glob2 jupyter librosa matplotlib nb_conda_kernels netcdf4 nltk numpy opencv openpyxl pandas pillow rasterio re2 rioxarray seaborn scikit-learn xarray```
+
 2. If the above fails try installing a single package a time. Take note of each command that errors as well as the exact error you receive and bring this info to day 1 (6 May 2024) of the workshop.
 
 ```
