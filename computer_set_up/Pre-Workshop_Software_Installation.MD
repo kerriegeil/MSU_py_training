@@ -24,7 +24,7 @@ Or for participants who want a nearly identical set up to the instructors, ***be
 
 #### Note for Mac Users
 
-**Anywhere you see instructions below to use the Anaconda Prompt, you will use the Mac terminal instead.
+**Anywhere you see instructions below to use the Anaconda Prompt, you will use the Mac terminal instead.**
 
 <br>
 <br>
@@ -54,7 +54,7 @@ Here, we will create a conda environment called “pyworkshop” and install pyt
 4.	Type the following at the command line: ```conda env create -f env.yml```
 5.	Let the installation proceed, which could take anywhere from 2-20 minutes. When the installation is finished you will see a message about activate and deactivate and you’ll once again see the prompt which starts with (base).
 
-Alternate instructions if the above does not work:
+#### Alternate instructions if the above does not work:
 1.	From your computer's start menu open Anaconda Navigator click “Environments” on the navigation panel on the left
 2.  Near the top of the screen, click the "Channels" button.
 3.  In the channels pop-up window that appears click the "Add" button.
@@ -69,10 +69,13 @@ Alternate instructions if the above does not work:
 12.	Click the “Apply” button at the bottom right
 13.	When the “Install Packages” pop-up window appears, click the “Apply” button on the pop-up window and wait for the packages to finish installing. You’ll see the green play button next to the pyworkshop environment name when the installation is complete. 
 
-Troubleshooting if neither of the above works (this may be needed for Mac users)
+#### Troubleshooting if neither of the above works
+**If you already had Anaconda installed on your machine (i.e. you did not just execute Task 1 for the first time):** 
+1. You may have an older slower version Anaconda. Anaconda incorporated a major speed upgrade at the end of 2023. Update to the latest version of Anaconda. Instructions can be found at the top of this page: [updating conda and Anaconda](https://docs.anaconda.com/free/anaconda/install/update-version/). Then, try Task 2 again. 
+
+**If you are working with a fresh install of Anaconda and are still having problems:** 
 1. Instead of using the yml file to build your conda environment copy this command into your Anaconda Prompt/Mac terminal.
 ```conda create -n pyworkshop -c conda-forge dask gdal geopandas glob2 jupyter librosa matplotlib nb_conda_kernels netcdf4 nltk numpy opencv openpyxl pandas pillow rasterio re2 rioxarray seaborn scikit-learn xarray```
-
 2. If the above fails try installing a single package a time. Take note of each command that errors as well as the exact error you receive and bring this info to day 1 (6 May 2024) of the workshop.
 
 ```
