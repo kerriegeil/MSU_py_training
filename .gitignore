@@ -1,3 +1,6 @@
+# data directories
+learn_by_doing/data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
