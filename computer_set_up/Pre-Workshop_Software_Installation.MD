@@ -10,10 +10,10 @@
 #### System Requirements
 -	Hard drive: 5-10 gigabites of free space at minimum 
 -	RAM: 8GB or more is recommended
--	Internet access: an internet connection is needed to build or modify conda environments
+-	Internet access: an internet connection is needed to build or modify conda environments and for creating certain visualizations
 
 #### Other Equipment Considerations
--	When joining the workshop, it will be ideal to either have multiple monitors or one very large monitor where you can have the web meeting open alongside other applications like a jupyter notebook. You will be following along with the instructor executing code in your own jupyter notebook. It would be very difficult to keep up without enough space to have both applications open and visible at the same time.
+-	When joining the workshop, you'll need either one very large monitor or multiple monitors where you can have the web meeting open alongside other applications like a jupyter notebook. You will be following along with the instructor executing code in your own jupyter notebook. It would be very difficult to keep up without enough space to have both applications open and visible at the same time.
 
 #### Software Used During the Workshop
 -	Anaconda 
@@ -70,7 +70,7 @@ Here, we will create a conda environment called “pyworkshop” and install pyt
 8.	On this same pop-up window make sure the check box next to Python is checked (should be checked by default). Whatever version of python is pre-populated in the drop down should be fine.
 9.	On this same pop-up window click the “Create” button and wait for conda to finish creating your new environment. You’ll see a green play button next to the pyworkshop environment when Anaconda has finished creating and activating it.
 10.	Now we’ll select a series of packages to install to the pyworkshop environment. Make sure the dropdown menu near the top of the screen displays “All”. In the “Search Packages” bar (upper right) type ```numpy```, then in the list of packages that appears find the one called numpy and click the check box in the “Name” column next to the package name.
-11.	Repeat step 6 twenty more times with the following package names: dask, gdal, geopandas, glob2, jupyter, librosa, matplotlib, nb_conda_kernels, netcdf4, nltk, opencv, openpyxl, pandas, pillow, rasterio, re2, rioxarray, seaborn, scikit-learn, xarray
+11.	Repeat step ten 21 more times with the following package names: cartopy, dask, gdal, geopandas, glob2, jupyter, librosa, matplotlib, nb_conda_kernels, netcdf4, nltk, opencv, openpyxl, pandas, pillow, rasterio, re2, rioxarray, seaborn, scikit-learn, xarray
 12.	Click the “Apply” button at the bottom right
 13.	When the “Install Packages” pop-up window appears, click the “Apply” button on the pop-up window and wait for the packages to finish installing. You’ll see the green play button next to the pyworkshop environment name when the installation is complete. 
 
@@ -81,13 +81,14 @@ Here, we will create a conda environment called “pyworkshop” and install pyt
 **If you are working with a fresh install of Anaconda and are still having problems:** 
 1. Instead of using the yml file to build your conda environment copy this command into your Anaconda Prompt/Mac terminal.
 
-```conda create -n pyworkshop -c conda-forge dask gdal geopandas glob2 jupyter librosa matplotlib nb_conda_kernels netcdf4 nltk numpy opencv openpyxl pandas pillow rasterio re2 rioxarray seaborn scikit-learn xarray```
+```conda create -n pyworkshop -c conda-forge cartopy dask gdal geopandas glob2 jupyter librosa matplotlib nb_conda_kernels netcdf4 nltk numpy opencv openpyxl pandas pillow rasterio re2 rioxarray seaborn scikit-learn xarray```
 
 2. If the above fails try installing a single package a time. Take note of each command that errors as well as the exact error you receive and bring this info to day 1 (6 May 2024) of the workshop.
 
 ```
-conda create -n pyworkshop -c conda-forge dask
+conda create -n pyworkshop -c conda-forge cartopy
 conda activate pyworkshop
+conda install -c conda-forge dask
 conda install -c conda-forge gdal
 conda install -c conda-forge geopandas
 conda install -c conda-forge glob2
