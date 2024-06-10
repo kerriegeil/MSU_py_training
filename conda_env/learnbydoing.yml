@@ -1,0 +1,17 @@
+name: learnbydoing
+channels:
+  - conda-forge
+dependencies:
+  - cartopy
+  - dask
+  - glob2
+  - jupyter
+  - matplotlib
+  - nb_conda_kernels
+  - netcdf4
+  - numpy
+  - pandas
+  - rasterio
+  - rioxarray
+  - seaborn
+  - xarray
