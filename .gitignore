@@ -1,5 +1,8 @@
 # data directories
 learn_by_doing/*/data/
+learn_by_doing/*/*/data/
+
+# notebook outputs
 learn_by_doing/enso/some_descriptive_filename.nc
 
 # Byte-compiled / optimized / DLL files
@@ -79,8 +82,9 @@ docs/_build/
 .pybuilder/
 target/
 
-# Jupyter Notebook
+# Jupyter 
 .ipynb_checkpoints
+.virtual_documents
 
 # IPython
 profile_default/
