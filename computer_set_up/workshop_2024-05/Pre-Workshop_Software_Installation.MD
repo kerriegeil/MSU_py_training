@@ -21,7 +21,7 @@
 
 #### For participants who are already using python, conda, and Jupyter
 
-Most of the workshop instructors will use Windows machines with Anaconda to install python packages and launch JupyterLab. If you are already using conda, python, and jupyter notebooks but accessing them through a different workflow (e.g. using an IDE like VS Code and command line conda with git bash) or are on a different operating system that is ok but note that there will be small differences in the appearance and outputs of the workshop materials. If you are experienced with these tools, these differences shouldn’t cause any problems. ***Before the workshop, please create the pyworkshop conda environment using [env.yml](https://github.com/kerriegeil/MSU_py_training/blob/main/conda_env/env.yml) and proceed to Task 4, steps 3 through 7 to verify that everything is working.*** Estimated time to complete is 5-20 minutes, depending on your conda version.
+Most of the workshop instructors will use Windows machines with Anaconda to install python packages and launch JupyterLab. If you are already using conda, python, and jupyter notebooks but accessing them through a different workflow (e.g. using an IDE like VS Code and command line conda with git bash) or are on a different operating system that is ok but note that there will be small differences in the appearance and outputs of the workshop materials. If you are experienced with these tools, these differences shouldn’t cause any problems. ***Before the workshop, please create the pyworkshop conda environment using [env.yml](https://github.com/kerriegeil/MSU_py_training/blob/main/conda_env/workshop_2024-05/env.yml) and proceed to Task 4, steps 3 through 7 to verify that everything is working.*** Estimated time to complete is 5-20 minutes, depending on your conda version.
 
 #### For participants who are NOT already using python, conda, and Jupyter
 
@@ -53,7 +53,7 @@ Estimated time to complete: 5-20 minutes
 
 Here, we will create a conda environment called “pyworkshop” and install python packages to it.
 
-1.	Follow this link [env.yml](https://github.com/kerriegeil/MSU_py_training/blob/main/conda_env/env.yml) and download the yml file by clicking on the download symbol near the top right of the file (next to Raw and copy)
+1.	Follow this link [env.yml](https://github.com/kerriegeil/MSU_py_training/blob/main/conda_env/workshop_2024-05/env.yml) and download the yml file by clicking on the download symbol near the top right of the file (next to Raw and copy)
 2.	Save the file to your home directory which is usually C:/Users/yourusername
 3.	From your computer's start menu, find the Anaconda3 folder and inside that folder open the Anaconda Prompt. Alternatively, type ```Anaconda Prompt``` in your computer's search bar (next to your start menu) and open the app that way. (Mac users, open the Mac terminal since you won't have the Anaconda Prompt)
 4.	Type the following at the command line: ```conda env create -f env.yml```
