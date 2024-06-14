@@ -2,7 +2,7 @@
 
 Hi, I'm Dr Kerrie Geil, a Research Associate Professor at Mississippi State University's Geosystems Research Institute (GRI). This repo contains python learning materials that I have developed for scientists, engineers, or others who already have knowledge of both statistics and programming, but are looking to quickly pick up python skills at a level useful for scientific analysis. 
 
-I am a climate scientist, so these materials focus heavily on data and techniques that are popular in climate and earth-related sciences. Anyone is welcome to use these materials but they will be most beneficial for learners who want to work with multi-dimensional labeled arrays (e.g. netcdf and tiff data). 
+I am a climate scientist, so these materials focus heavily on data and techniques that are popular in climate and earth-related sciences. The learning materials are written in the context of scientific analyses, assuming the learner already knows some statistics, the basics of computer programming, and can pick up syntax without explicit instruction. This is very different than traditional computer science learning. Anyone is welcome to use these materials but they will be most beneficial for learners who want to conduct scientific analyses using multi-dimensional labeled arrays (e.g. netcdf and tiff data). 
 
 
 # How to use this repo
