@@ -4,6 +4,7 @@ channels:
 dependencies:
   - cartopy
   - dask
+  - geopandas
   - glob2
   - jupyter
   - matplotlib
