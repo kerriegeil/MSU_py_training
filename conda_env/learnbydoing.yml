@@ -12,6 +12,7 @@ dependencies:
   - netcdf4
   - numpy
   - pandas
+  - pyogrio
   - rasterio
   - rioxarray
   - seaborn
