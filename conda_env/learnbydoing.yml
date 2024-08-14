@@ -2,18 +2,19 @@ name: learnbydoing
 channels:
   - conda-forge
 dependencies:
-  - cartopy
-  - dask
-  - geopandas
+  - cartopy = 0.23.0
+  - dask = 2024.5.2
+  - geopandas = 0.14.4
   - glob2
   - jupyter
-  - matplotlib
-  - nb_conda_kernels
-  - netcdf4
-  - numpy
-  - pandas
-  - pyogrio
-  - rasterio
-  - rioxarray
-  - seaborn
-  - xarray
+  - matplotlib = 3.8.4
+  - nb_conda_kernels = 2.5.1
+  - netcdf4 = 1.6.5
+  - numpy = 1.26.4
+  - pandas = 2.2.2
+  - pyogrio = 0.8.0
+  - rasterio = 1.3.10
+  - rioxarray = 0.15.5
+  - seaborn = 0.13.2
+  - xagg = 0.3.2.1
+  - xarray = 2024.6.0 

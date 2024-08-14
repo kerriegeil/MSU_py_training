@@ -57,7 +57,7 @@ You may have an older slower version Anaconda. Anaconda incorporated a major spe
 
 Instead of using the yml file to build your conda environment copy this command into your Anaconda Prompt/Mac terminal.
 
-```conda create -n learnbydoing -c conda-forge cartopy dask glob2 jupyter matplotlib nb_conda_kernels netcdf4 numpy pandas rasterio rioxarray xarray```
+```conda create -n learnbydoing -c conda-forge cartopy dask geopandas glob2 jupyter matplotlib nb_conda_kernels netcdf4 numpy pandas pyogrio rasterio rioxarray seaborn xagg xarray```
 
 <br>
 <br>
@@ -87,8 +87,12 @@ import pandas as pd
 import scipy.stats as ss
 from scipy.signal import detrend
 import rioxarray as rio
+import geopandas as gpd
+from shapely.geometry.polygon import orient
+import xagg
 import warnings
 import os
+import sys
 from urllib.request import urlretrieve
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
